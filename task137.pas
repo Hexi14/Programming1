@@ -56,16 +56,18 @@ for i:=1 to n-1 do
 writeln('g) ',a);
 (* d) *)
 a := a_array[0] * (-1);
+writeln('d.1',a);
 for i:=1 to n-1 do
+  begin
   a := ((-1)**i)*a_array[i];
-writeln('d) ',a);
+  writeln('d.',i+1,')',a)
+  end;
 (* e) *)
 a := 0;
 for i:=0 to n-1 do
+  begin
   a := a_array[i] + fact(i);
-writeln('e) ',a);
-
-     
-  
+  writeln('e.',i+1,')',a);
+  end;
 
 end.
