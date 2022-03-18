@@ -1,4 +1,5 @@
 ﻿program task43;
+uses crt;
 var
   a,b,c:real;
   
@@ -12,4 +13,3 @@ write ('Введите c= '); readln(c);
 
 writeln('a=',a,' b=',b,' c=',c); 
 end.
-

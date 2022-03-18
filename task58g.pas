@@ -1,4 +1,5 @@
-﻿program gfd44;
+﻿program task58g;
+uses crt;
 var
   x,y:real;
 begin

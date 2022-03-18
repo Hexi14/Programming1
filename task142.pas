@@ -1,4 +1,5 @@
 ﻿program task142;
+uses crt;
 const
   n = 5;
  
